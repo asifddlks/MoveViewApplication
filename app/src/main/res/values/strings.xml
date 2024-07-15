@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MoveViewApplication</string>
+
+    <string name="spending_amount">Spending Amount</string>
+    <string name="select_spending_amount_in_bdt">Select spending amount in BDT</string>
+    <string name="skip_u"><u>Skip</u></string>
+    <string name="continue_">Continue</string>
+</resources>

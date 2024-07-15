@@ -1,0 +1,35 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MoveViewApplication" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.MoveViewApplication" parent="Base.Theme.MoveViewApplication" />
+
+    <style name="ThemeOverlay.PrimaryPalette.Red" parent="">
+        <item name="colorPrimary">#e53935</item>
+        <item name="colorPrimaryDark">#ab000d</item>
+    </style>
+
+    <style name="SliderTheme" parent="Widget.MaterialComponents.Slider">
+        <!-- Add attributes here -->
+        <item name="trackHeight">06dp</item>
+        <item name="cornerRadius">40dp</item>
+        <item name="trackStopIndicatorSize">0dp</item>
+        <item name="trackColorActive">@color/colorPrimary</item>
+        <item name="trackColorInactive">#F3F3F6</item>
+
+        <item name="tickColor">#FFEB3B</item>
+        <item name="thumbIcon">@drawable/ic_range_slider_thumb</item>
+        <item name="thumbColor">#2876BC</item>
+        <item name="android:thumbOffset">-0dp</item>
+
+    </style>
+
+    <style name="TextViewSkip" parent="Theme.MoveViewApplication">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/_4e4e4e</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+    </style>
+</resources>
